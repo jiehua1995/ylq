@@ -1,0 +1,211 @@
+body {
+  background-color: RGB(236, 236, 234);
+  font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  overflow: hidden;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 2em;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.header .blog-title .logo {
+  color: #fd637d;
+  font-size: 2em;
+  font-family: "Comic Sans MS", cursive, LiSu, sans-serif;
+  text-decoration: none;
+}
+.header .menu {
+  margin: 0;
+  padding: 0;
+  color: #fd637d;
+}
+.header .menu .menu-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header .menu .menu-item-link {
+  color: #fd637d;
+  text-decoration: none;
+}
+.header .menu .menu-item-link:hover {
+  color: #368ccb;
+}
+.post {
+  margin: 1em auto;
+  padding: 30px 50px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px #ddd;
+}
+.posts .post:first-child {
+  margin-top: 0;
+}
+.posts .post-title {
+  font-size: 1.5em;
+}
+.posts .post-title .post-title-link {
+  color: #368ccb;
+  text-decoration: none;
+}
+.posts .post-content a {
+  color: #368ccb;
+  text-decoration: none;
+}
+.posts .post-meta {
+  color: #bababa;
+}
+.archive {
+  margin: 1em auto;
+  padding: 30px 50px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px #ddd;
+}
+.archive .post-archive {
+  list-style: none;
+  padding: 0;
+}
+.archive .post-archive .post-item {
+  margin: 5px 0;
+}
+.archive .post-archive .post-item .post-date {
+  display: inline-block;
+  margin-right: 10px;
+  color: #bababa;
+}
+.archive .post-archive .post-item .post-title {
+  color: #368ccb;
+  text-decoration: none;
+}
+.date {
+  margin: 1em auto;
+  padding: 30px 50px;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  color: #fd637d;
+}
+.timer {
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+.timer b {
+  color: #fd637d;
+}
+.page-nav {
+  padding: 0.5em 0;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px #ddd;
+}
+.page-nav .prev,
+.page-nav .next,
+.page-nav .page-number {
+  padding: 0.1em 0.5em;
+}
+.page-nav .prev {
+  float: left;
+}
+.page-nav .next {
+  float: right;
+}
+.page-nav a {
+  color: #777;
+  text-decoration: none;
+}
+.page-nav a:hover {
+  color: #368ccb;
+}
+.timeline-small {
+  max-width: 1000px;
+  max-height: 630px;
+  overflow: hidden;
+  margin: 30px auto 0;
+  box-shadow: 0 0 40px #a0a0a0;
+  font-family: 'Open Sans', sans-serif;
+  overflow-y: scroll;
+  overflow-x: visible;
+}
+.timeline-small-body ul {
+  padding: 1em 0 0 2em;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+.timeline-small-body ul::before {
+  content: ' ';
+  height: 100%;
+  width: 5px;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 0;
+  left: 2.4em;
+  z-index: -1;
+}
+.timeline-small-body li div {
+  display: inline-block;
+  margin: 1em 0;
+  vertical-align: top;
+}
+.timeline-small-body .bullet {
+  width: 1rem;
+  height: 1rem;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 1;
+  margin-right: 1rem;
+  margin-top: 7%;
+}
+.timeline-small-body .bullet.pink {
+  background-color: #ff69b4;
+  border: 3px solid #f93b69;
+}
+.timeline-small-body .bullet.green {
+  background-color: #20b2aa;
+  border: 3px solid #b0e8e2;
+}
+.timeline-small-body .bullet.blue {
+  background-color: #7fffd4;
+  border: 3px solid #5f9ea0;
+}
+.timeline-small-body .bullet.orange {
+  background-color: #fa8072;
+  border: 3px solid #eb8b6e;
+}
+.timeline-small-body .bullet.5 {
+  background-color: #e0ffff;
+  border: 3px solid #00ced1;
+}
+.timeline-small-body .date {
+  width: 23%;
+  font-size: 0.75em;
+  padding-top: 0.4rem;
+  padding-right: 2rem;
+}
+.timeline-small-body .desc {
+  width: 50%;
+  margin-left: 10%;
+}
+.timeline-small-body h3 {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+}
+.timeline-small-body h4 {
+  margin: 0;
+  font-size: 0.7em;
+  font-weight: 400;
+  color: #808080;
+}
