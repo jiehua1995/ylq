@@ -37,22 +37,32 @@
 </header>
 
       <main class="main">
-      <section class="posts">
-  
-    <article class="post">
-      <div class="post-title">
-        <a class="post-title-link" href="/2020/04/17/hello-world/">Hello World</a>
-      </div>
-      <div class="post-content">
-        
-      </div>
-      <div class="post-meta">
-        <span class="post-time">2020-04-17</span>
-      </div>
-    </article>
-  
-</section>
+      <section class="date">
 
+  <div class="date">
+      <h2>Jie Hua and Linqi You have been together for</h2>
+  
+      <div class="timer">
+      <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes <b id="s"></b> Seconds
+      </div>
+   
+        <div class="song">
+          <!--页面底部歌词-->
+          <!-- require APlayer -->
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+          <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+          <!-- require MetingJS -->
+          <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+          <meting-js server="netease" type="playlist" id="4970151389" fixed="true" autoplay="true"></meting-js>
+          </div>
+  
+  </div>
+  
+  
+<script src="/js/date.js"></script>
+
+  
+  </section>
       </main>
 
       
