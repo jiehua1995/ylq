@@ -27,7 +27,7 @@
       <main class="main">
       <section class="date">
   <div class="date">
-      <h2>Jie Hua and Linqi You have been together for</h2>
+      <h2>Jimmy Kudo and Rachel Moore have been together for</h2>
       <div class="timer">
       <b id="d"></b> Days <b id="h"></b> Hours <b id="m"></b> Minutes <b id="s"></b> Seconds
       </div>
@@ -41,7 +41,7 @@
           <meting-js 
           server="netease" 
           type="playlist" 
-          id="110886547" 
+          id="2042070338" 
           fixed="true"
 
           autoplay="true" 
@@ -54,7 +54,7 @@
       <script>
         function timer() {
         window.setTimeout("timer()", 1000);
-        var start = new Date("2020-04-15 11:41:00");
+        var start = new Date("1994-04-01 00:00:00");
         var t = new Date().getTime() - start;
         var h = ~~(t / 1000 / 60 / 60 % 24);
         if (h < 10) {h = "0" + h;}
@@ -69,6 +69,9 @@
         timer();
       </script> 
 <!--END：计时器js-->
+
+<!--鼠标点击显示爱心-->
+<script src="https://cdn.jsdelivr.net/gh/wallleap/cdn/js/love.js"></script>
   </section>
       </main>
 
@@ -80,9 +83,7 @@
       
 
     </div>
-    <footer class="footer">
-    
-</footer>
+
   </body>
 </html>
 
